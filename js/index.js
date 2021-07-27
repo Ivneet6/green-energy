@@ -1,9 +1,9 @@
 // Load your images on page-load
 function preloader() {
     const imagesPaths = [
-        "/img/image-1.jpg",
-        "../img/image-2.jpg",
-        "../img/image-3.jpg"
+        "img/image-1.jpg",
+        "img/image-2.jpg",
+        "img/image-3.jpg"
     ];
     const images = [];
 
@@ -23,7 +23,7 @@ window.addEventListener("load", preloader);
 const data = {
     TaxCredit: {
         heading: 'Tax Credit',
-        imageURL: '/img/image-1.jpg',
+        imageURL: 'img/image-1.jpg',
         imageAlt: 'woman-hand-pressing-calculators button',
         bodyText: 'Providing tax credits to those who invest in and produce renewable energy sources would generate a willingness to transition to energy efficient resources like solar and wind power. With the money saved by tax credits, developers and investors would see their investments paid off. ',
 
@@ -31,8 +31,8 @@ const data = {
 
     AssistanceFunds: {
         heading: 'Federal Assistance Funds',
-        imageURL: '../img/image-2.jpg',
-        imageAlt: '...',
+        imageURL: 'img/image-2.jpg',
+        imageAlt: 'woman-hand-counting-dollar-bills',
         bodyText: 'Many governments assist lower-income communities and organizations with funds already. Now, they’re investing in renewable energy sources and energy efficient systems to bring lower energy costs and increased public welfare.Examples of such programs include the Department of Health and Human Services’ Low Income Home Energy Assistance Program (LIHEAP) and the Department of Energy’s Weatherization Assistance Program (WAP). In addition to direct investment, they also assist through grants and development programs.',
 
     },
@@ -40,7 +40,7 @@ const data = {
     Solar: {
         heading: 'Community Solar',
         imageURL: '../img/image-3.jpg',
-        imageAlt: '...',
+        imageAlt: 'solar-panel',
         bodyText: 'A community solar project, or solar garden, is a collection of solar panels whose energy is shared by multiple houses. The solar garden would power each home’s water, heat and electricity while the entire community would split the lower energy costs.They can be implemented by a few or multiple individuals within a community. Community solar projects have benefited many lower-income communities in places like Denver, Colorado. Plus, they’re growing in popularity. It’s expected in America for 50 percent of the solar energy market to come from solar communities in the next few years. As we move forward, solar energy makes sense.',
 
     },
