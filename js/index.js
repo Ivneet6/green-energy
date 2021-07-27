@@ -1,7 +1,7 @@
 // Load your images on page-load
 function preloader() {
     const imagesPaths = [
-        "./img/image-1.jpg",
+        "/img/image-1.jpg",
         "../img/image-2.jpg",
         "../img/image-3.jpg"
     ];
@@ -23,7 +23,7 @@ window.addEventListener("load", preloader);
 const data = {
     TaxCredit: {
         heading: 'Tax Credit',
-        imageURL: './img/image-1.jpg',
+        imageURL: '/img/image-1.jpg',
         imageAlt: 'woman-hand-pressing-calculators button',
         bodyText: 'Providing tax credits to those who invest in and produce renewable energy sources would generate a willingness to transition to energy efficient resources like solar and wind power. With the money saved by tax credits, developers and investors would see their investments paid off. ',
 
