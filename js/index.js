@@ -97,6 +97,12 @@ function handleClick(ev) {
     //add attribute to the currently clicked element
     $currentItem.setAttribute('id', 'active-button');
 
+    //check if the clickedd button is the first one
+    if (ev.target === $buttons[0]) {
+
+    //assign the second content to HTML container that will load the content dynamically
+        $dc.innerHTML = markup;
+    }
     //check if the clickedd button is the second one
     if (ev.target === $buttons[1]) {
 
