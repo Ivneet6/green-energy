@@ -39,7 +39,7 @@ const data = {
 
     Solar: {
         heading: 'Community Solar',
-        imageURL: '../img/image-3.jpg',
+        imageURL: 'img/image-3.jpg',
         imageAlt: 'solar-panel',
         bodyText: 'A community solar project, or solar garden, is a collection of solar panels whose energy is shared by multiple houses. The solar garden would power each home’s water, heat and electricity while the entire community would split the lower energy costs.They can be implemented by a few or multiple individuals within a community. Community solar projects have benefited many lower-income communities in places like Denver, Colorado. Plus, they’re growing in popularity. It’s expected in America for 50 percent of the solar energy market to come from solar communities in the next few years. As we move forward, solar energy makes sense.',
 
@@ -62,12 +62,12 @@ let markup = `<h2>${data.TaxCredit.heading}</h2>
 
 //create markup for second button
 let markup2 = `<h2>${data.AssistanceFunds.heading}</h2>
-              <img src ="${data.AssistanceFunds.imageURL}" alt"">   
+              <img src ="${data.AssistanceFunds.imageURL}" alt"woman-hand-counting-dollar-bills">   
               <p> ${data.AssistanceFunds.bodyText} </p>`;
 
 //create markup for third button
 let markup3 = `<h2>${data.Solar.heading}</h2>
-              <img src ="${data.Solar.imageURL}" alt"">   
+              <img src ="${data.Solar.imageURL}" alt"solar-panel">   
               <p> ${data.Solar.bodyText} </p>`;
 
 
